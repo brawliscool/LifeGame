@@ -5,3 +5,13 @@ const propertyDefs=[['Starter House',180000,15000,1600,2600],['Duplex',320000,30
 const vehicleDefs=[['Economy Car',22000,.82,1800],['Luxury SUV',78000,.78,5200],['Sports Car',145000,.74,9000],['Lamborghini',340000,.7,18000],['F-250',68000,.8,4800],['F-450 Dually',105000,.79,7200],['Helicopter',1800000,.88,160000],['Private Jet',12000000,.9,950000]];
 const offices=[{name:'Mayor',age:25,cost:25000,term:4,salary:90000,need:0},{name:'State Representative',age:25,cost:80000,term:2,salary:120000,need:15},{name:'Governor',age:30,cost:500000,term:4,salary:180000,need:35},{name:'U.S. Senator',age:30,cost:1500000,term:6,salary:220000,need:50},{name:'President',age:35,cost:10000000,term:4,salary:400000,need:75}];
 const policyDefs=[['Expand Healthcare',8,-5,18],['Infrastructure Plan',6,3,12],['Small Business Tax Cut',4,7,10],['Education Funding',7,-3,14],['Clean Energy Program',5,-2,11],['Community Safety Funding',5,2,8]];
+const militaryBranches=[
+{name:'Army',icon:'🪖',minAge:18,maxAge:35,minHealth:55,minSmart:25,basePay:32000,risk:.18,fitness:5,skill:2},
+{name:'Marine Corps',icon:'⚔️',minAge:18,maxAge:29,minHealth:72,minSmart:30,basePay:34000,risk:.26,fitness:8,skill:3},
+{name:'Navy',icon:'⚓',minAge:18,maxAge:39,minHealth:55,minSmart:40,basePay:35000,risk:.13,fitness:4,skill:4},
+{name:'Air Force',icon:'✈️',minAge:18,maxAge:42,minHealth:50,minSmart:60,basePay:39000,risk:.09,fitness:3,skill:6},
+{name:'Space Force',icon:'🚀',minAge:18,maxAge:42,minHealth:50,minSmart:78,basePay:43000,risk:.05,fitness:2,skill:8},
+{name:'Coast Guard',icon:'🛟',minAge:18,maxAge:41,minHealth:60,minSmart:45,basePay:37000,risk:.11,fitness:5,skill:4}
+];
+const enlistedRanks=['E-1 Recruit','E-2 Private','E-3 Specialist','E-4 Corporal','E-5 Sergeant','E-6 Staff Sergeant','E-7 Sergeant First Class','E-8 Master Sergeant','E-9 Sergeant Major'];
+const officerRanks=['O-1 Second Lieutenant','O-2 First Lieutenant','O-3 Captain','O-4 Major','O-5 Lieutenant Colonel','O-6 Colonel','O-7 Brigadier General','O-8 Major General','O-9 Lieutenant General','O-10 General'];
